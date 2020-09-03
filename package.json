@@ -1,0 +1,25 @@
+{
+  "name": "jwt-demo",
+  "version": "1.0.0",
+  "description": "jwt, learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vinhphuctadang/jwt-demo.git"
+  },
+  "keywords": [
+    "jwt"
+  ],
+  "author": "vinhphuctadang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vinhphuctadang/jwt-demo/issues"
+  },
+  "homepage": "https://github.com/vinhphuctadang/jwt-demo#readme",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1"
+  }
+}
