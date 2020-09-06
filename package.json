@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/vinhphuctadang/jwt-demo#readme",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1"
+    "crypto": "^1.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "secp256k1": "^4.0.2"
   }
 }
