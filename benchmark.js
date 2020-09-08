@@ -54,14 +54,14 @@ async function main() {
         )
     }
     
-    console.log(`Public key recovering method over ${times}:`, Date.now()-marked)
+    console.log(`Public key recovering method over ${times} times:`, Date.now()-marked, 'ms')
 
     marked = Date.now()
     for(let i = 0; i<times;++i) {
         verifyToken(token)
     }
     
-    console.log(`JWT verification over ${times}:`, Date.now()-marked)
+    console.log(`JWT verification over ${times} times:`, Date.now()-marked, 'ms')
 }
 
 main()
